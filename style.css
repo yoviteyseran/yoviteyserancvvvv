@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+body{
+    background: #00b6c4;
+
+}
+.container{
+   background: #f5f5f5;
+   max-width: 800px;
+   margin: 60px auto;
+   height: 1250px;
+   padding: 20px;
+   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+header h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.img-area{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove deepskyblue;
+}
+.img-area img{
+    width: 96%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 8px;
+}
+.left p{
+    line-height: 1,8;
+}
+.left ul li{
+    line-height: 2;
+}
+h2{
+    background:grey;
+    padding: 15px;
+    color: bisque;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+
+}
+  
+.right{
+    flex: 1; /* or use display: inline-block; depending on your layout */
+    width: 10%; /* adjust the width as needed */
+    padding: 10px;
+}
+.right h2{
+    margin-bottom: 30px 0;
+
+}
+.right p{
+    line-height: 3;
+
+}
+.right ul {
+     /* remove default list styles */
+    padding: 0;
+}
+
+.right li {
+    margin-bottom: 10px; /* add margin between list items */
+}
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .skill-name {
+    width: 40%;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+  
+  .progress-bar {
+    width: 65%;
+    height: 15px;
+    background-color: #7c777793;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-inner {
+    height: 100%;
+    background-color: #6bb4c7; /* Green color, you can customize this */
+  }
+  .progress-bar-inner1 {
+    height: 100%;
+    background-color: #6bb4c7; /* Green color, you can customize this */
+  }
+  .progress-bar-inner2 {
+    height: 100%;
+    background-color: #6bb4c7; /* Green color, you can customize this */
+  }
